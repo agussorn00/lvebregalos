@@ -1,0 +1,245 @@
+/* font-family: 'Ms Madi', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #f0b6ff;
+    padding: 1px 0;
+
+}
+
+header div img {
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 40px;
+    margin-left: -7px;
+}
+
+nav {
+    background-color: #ef6fef;
+    margin-bottom: 30px;
+    margin-top: -40px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: stretch;
+}
+
+nav ul li {
+    display: block;
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+main div img {
+    width: 1000px;
+    height: 500px;
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.activo {
+    background-color: #a84ca8;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #a12e7e;
+}
+
+.bienvenidos {
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+/*Donde estamos*/
+.lugar {
+    text-align: center;
+    padding: 20px;
+    margin-left: -18px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    color: #a833a4;
+    border-top: #ef6fef solid 3px;
+}
+
+.lugar iframe {
+    width: 960px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ciudad {
+    color: #a833a4;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 50px 230px;
+    /* background-color: #ccc; */
+    border-radius: 20px;
+    width: 500px;
+}
+
+/*novedades*/
+#novedades {
+    text-align: center;
+    padding: 20px;
+    /*margin-left: 144px;*/
+    margin-top: 80px;
+    color: #a833a4;
+    border-top: #ef6fef solid 3px;
+}
+
+.novedades {
+    margin-left: -50px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.buda img {
+    width: 300px;
+    height: 300px;
+}
+
+.buda {
+    text-align: center;
+    padding: 25px;
+    justify-content: center;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.buda div h2 {
+    font-size: 15px;
+
+}
+
+.buda h1 {
+    transition: all 0.5s ease;
+}
+
+.buda:hover h1 {
+    color: rgb(223, 75, 243);
+    font-size: 40px;
+    transition: all 0.5s ease;
+}
+
+.buda:hover {
+    background-color: rgb(219, 219, 219);
+    transition: all 0.5s ease;
+}
+
+.buda img {
+    transform: scale(0.9);
+    transition: all 0.5s ease;
+}
+
+.buda:hover img {
+    transform: scale(1.0);
+    transition: all 0.5s ease;
+}
+
+/*Contacto*/
+.rapido {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rapido h1 {
+    color: #a833a4;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #a833a4;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.contacto {
+    padding: 20px;
+}
+
+.datos {
+    text-align: center;
+    margin: 50px 0 50px;
+    padding: 30px;
+
+}
+
+.datos img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.datos a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#botonArriba {
+    position: fixed;
+    bottom: 57px;
+    margin-right: 25px;
+    height: 50px;
+    transition: all 1s;
+}
